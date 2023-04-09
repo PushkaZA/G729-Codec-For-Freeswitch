@@ -14,7 +14,7 @@ How to install G729 Free Codec on FreeSWITCH
 
 5. Add G729 to your global_codec_prefs/outbound_codec_prefs in FusionPBX/Astpp
 
-6. Restart FreeSWITCH: <code>fsctl shutdown restart</code>
+6. Restart FreeSWITCH: <code>fsctl shutdown restart</code> (N.B restarting your switch might unload the newly loaded bcg729 codec, always double check it)
 
 
 That’s it now you can use codec g729 in calls and transcoding.
